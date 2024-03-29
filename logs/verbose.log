@@ -1,3 +1,163 @@
 {"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:37:48.078Z"}
 {"level":"verbose","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-29T15:37:48.081Z"}
 {"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-29T15:37:48.081Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T16:06:43.569Z"}
+{"level":"info","message":"POST /api/task/","timestamp":"2024-03-29T16:09:02.053Z"}
+{"level":"info","message":"POST /api/task/","timestamp":"2024-03-29T16:09:09.396Z"}
+{"level":"info","message":"POST /api/task/","timestamp":"2024-03-29T16:09:31.537Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:09:53.023Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:11:28.221Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:11:50.829Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:11:50.839Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:11:52.929Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:11:52.931Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:12:21.524Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:12:21.525Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T16:12:34.128Z"}
+{"level":"verbose","message":"[auth.controllers.js] -> Login ]","timestamp":"2024-03-29T16:12:34.129Z"}
+{"level":"verbose","message":"[auth.services.js] -> loginUser ]","timestamp":"2024-03-29T16:12:34.132Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:12:48.230Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:12:48.232Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:12:48.239Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:13:21.004Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:13:21.014Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:13:21.029Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:13:56.380Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:13:56.390Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:13:56.408Z"}
+{"level":"verbose","message":"[task.services.js] -> createTask ]","timestamp":"2024-03-29T16:13:56.410Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:13:59.389Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:13:59.391Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:13:59.397Z"}
+{"level":"verbose","message":"[task.services.js] -> createTask ]","timestamp":"2024-03-29T16:13:59.397Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:14:19.971Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:14:19.982Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:14:20.000Z"}
+{"level":"verbose","message":"[task.services.js] -> createTask ]","timestamp":"2024-03-29T16:14:20.003Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:14:37.937Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:14:37.939Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:14:37.944Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:19:20.107Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:19:20.120Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:20:27.762Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:20:27.773Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:20:27.787Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:21:34.886Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:21:34.897Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:21:34.914Z"}
+{"level":"verbose","message":"[task.services.js] -> createTask ]","timestamp":"2024-03-29T16:21:34.917Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:21:41.487Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:21:41.488Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:21:41.493Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:22:59.344Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:22:59.354Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:25:08.803Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:25:08.821Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:25:08.843Z"}
+{"level":"verbose","message":"[task.services.js] -> createTask ]","timestamp":"2024-03-29T16:25:08.848Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:26:21.377Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:26:21.387Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:26:21.405Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:26:43.796Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:26:43.797Z"}
+{"level":"verbose","message":"[task.controllers.js] -> createTask ]","timestamp":"2024-03-29T16:26:43.802Z"}
+{"level":"verbose","message":"[task.services.js] -> createTask ]","timestamp":"2024-03-29T16:26:43.803Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T16:26:48.683Z"}
+{"level":"verbose","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-29T16:26:48.684Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:26:52.672Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:26:52.673Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T16:32:05.474Z"}
+{"level":"verbose","message":"[auth.controllers.js] -> Login ]","timestamp":"2024-03-29T16:32:05.496Z"}
+{"level":"verbose","message":"[auth.services.js] -> loginUser ]","timestamp":"2024-03-29T16:32:05.499Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:32:17.185Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:32:17.187Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:32:22.367Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:32:22.368Z"}
+{"level":"verbose","message":"[task.controllers.js] -> getTaskById ]","timestamp":"2024-03-29T16:32:22.377Z"}
+{"level":"verbose","message":"[task.services.js] -> getTaskById ]","timestamp":"2024-03-29T16:32:22.378Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:32:59.221Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:32:59.224Z"}
+{"level":"verbose","message":"[task.controllers.js] -> getTaskById ]","timestamp":"2024-03-29T16:32:59.237Z"}
+{"level":"verbose","message":"[task.services.js] -> getTaskById ]","timestamp":"2024-03-29T16:32:59.238Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:33:17.637Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:33:17.639Z"}
+{"level":"verbose","message":"[task.controllers.js] -> getTaskById ]","timestamp":"2024-03-29T16:33:17.652Z"}
+{"level":"verbose","message":"[task.services.js] -> getTaskById ]","timestamp":"2024-03-29T16:33:17.653Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:36:47.645Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:37:13.335Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:37:13.339Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:39:06.921Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:39:24.732Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:41:15.824Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:41:15.828Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:41:15.843Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:41:15.843Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:41:43.185Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:41:43.188Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:41:43.200Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:41:43.201Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:41:57.799Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:41:57.800Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:41:57.804Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:41:57.804Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:42:22.238Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:42:22.254Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:42:22.259Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:42:22.259Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:43:49.321Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:43:49.332Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:43:49.349Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:43:49.349Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:44:05.986Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:44:05.997Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:44:06.017Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:44:06.017Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:44:36.318Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:44:36.328Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:44:36.344Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:44:36.345Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:45:03.221Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:45:03.232Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:45:03.246Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:45:03.247Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:45:33.667Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:45:33.679Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:45:33.695Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:45:33.697Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:46:01.496Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:46:01.507Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:46:01.525Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:46:01.527Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:46:48.665Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:46:48.676Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:46:48.696Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:46:48.698Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:48:12.157Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:48:12.167Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:48:12.183Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:48:12.184Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:48:54.429Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:48:54.441Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:48:54.455Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:48:54.456Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:48:55.582Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:48:55.584Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:48:55.590Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:48:55.592Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:51:24.219Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:51:24.229Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:51:24.244Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:51:24.245Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:52:14.163Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:52:14.165Z"}
+{"level":"verbose","message":"[task.controllers.js] -> updateTaskById ]","timestamp":"2024-03-29T16:52:14.170Z"}
+{"level":"verbose","message":"[task.services.js] -> updateTaskById ]","timestamp":"2024-03-29T16:52:14.171Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:55:47.224Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:58:27.352Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:58:27.356Z"}
+{"level":"verbose","message":"[task.controllers.js] -> deleteTaskById ]","timestamp":"2024-03-29T16:58:27.368Z"}
+{"level":"verbose","message":"[task.services.js] -> deleteTaskById ]","timestamp":"2024-03-29T16:58:27.368Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:58:58.294Z"}
+{"level":"verbose","message":"[auth.middleware.js] -> verifyToken ]","timestamp":"2024-03-29T16:58:58.297Z"}
+{"level":"verbose","message":"[task.controllers.js] -> deleteTaskById ]","timestamp":"2024-03-29T16:58:58.310Z"}
+{"level":"verbose","message":"[task.services.js] -> deleteTaskById ]","timestamp":"2024-03-29T16:58:58.310Z"}

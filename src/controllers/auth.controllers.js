@@ -20,7 +20,7 @@ exports.register = async (req, res) => {
 
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
-    sendErrorResponse(res, 400, errors.array());
+    return sendErrorResponse(res, 400, errors.array());
   }
 
   try {
@@ -46,7 +46,7 @@ exports.login = async (req, res) => {
   if (!errors.isEmpty()) {
     Logger.error("[auth.controllers.js] -> Validation Error ]");
 
-    sendErrorResponse(res, 400, errors.array());
+    return sendErrorResponse(res, 400, errors.array());
 
   }
 
