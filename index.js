@@ -7,7 +7,7 @@ const express = require("express");
 const connectDB = require("./config/db");
 const logger  = require("./src/utils/logger");
 //const logger = require("./log")
-// const cookieParser = require("cookie-parser");
+const cookieParser = require("cookie-parser");
 // const loggingMiddleware = require("./middleware/logging.middleware");
 // const errorHandler = require("./middleware/error.middleware");
 
@@ -21,13 +21,13 @@ app.use((req, res, next) => {
   });
   
 // // Middleware
-// app.use(express.json());
-// app.use(cookieParser());
+app.use(express.json());
+app.use(cookieParser());
 // app.use(loggingMiddleware);
 // app.use(errorHandler);
 
 // // Routes
-// app.use("/api/auth", require("./routes/auth.routes"));
+app.use("/api/auth", require("././src/routes/auth.route"));
 // app.use("/api/tasks", require("./routes/task.routes"));
 
 const PORT = process.env.PORT || 3000;
