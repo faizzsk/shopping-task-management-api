@@ -1,0 +1,26 @@
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T14:55:43.132Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T14:57:26.043Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T15:16:56.984Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T15:17:13.447Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T15:25:30.368Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:25:30.525Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T15:26:48.469Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:26:48.591Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:27:38.155Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:27:38.255Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:28:02.505Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:28:02.604Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:28:38.001Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:28:38.106Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:30:00.723Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:30:00.835Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:30:02.176Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-29T15:30:02.251Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:30:19.298Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T15:30:43.397Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:34:56.513Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:35:37.122Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-29T15:35:37.140Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:36:32.098Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:37:48.079Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-29T15:37:48.081Z"}

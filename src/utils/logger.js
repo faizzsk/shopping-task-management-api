@@ -4,7 +4,7 @@ const winston = require("winston")
 const path = require("path")
 const logDirectory = path.join(__dirname, '..', '..', 'logs');
 console.log("logDirectory",logDirectory);
-const logger = winston.createLogger({
+const Logger = winston.createLogger({
   transports: [
     new winston.transports.File({
       filename: path.join(logDirectory, 'error.log'),
@@ -14,6 +14,15 @@ const logger = winston.createLogger({
         winston.format.json()
       ),
     }),
+    new winston.transports.File({
+      filename: path.join(logDirectory, 'verbose.log'),
+      level: 'verbose',
+      format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json()
+      ),
+    }),
+   
     new winston.transports.File({
       filename: path.join(logDirectory, 'combined.log'),
       format: winston.format.combine(
@@ -25,9 +34,9 @@ const logger = winston.createLogger({
 });
 
 if (process.env.NODE_ENV !== 'production') {
-  logger.add(new winston.transports.Console({
+  Logger.add(new winston.transports.Console({
     format: winston.format.simple(),
   }));
 }
 
-module.exports= logger;
+module.exports= Logger;
