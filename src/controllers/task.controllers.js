@@ -18,7 +18,8 @@ exports.createTask = async (req, res) => {
 
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
-    return sendErrorResponse(res, 400, errors.array());
+    return sendErrorResponse(res, 400, errors.array()[0]?.msg);
+   // return sendErrorResponse(res, 400, errors.array());
   }
 
   try {
@@ -46,7 +47,7 @@ exports.getTaskById = async (req, res) => {
     const task = await taskService.getTaskById(userId, taskId);
     sendSuccessResponse(res, task, 200, "");
   } catch (error) {
-    sendErrorResponse(res, 500, "Failed to create a task");
+    sendErrorResponse(res, error.statusCode || 500, error.message || "Failed to fetch a task");
   }
 };
 

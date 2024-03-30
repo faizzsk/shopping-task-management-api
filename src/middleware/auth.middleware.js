@@ -9,7 +9,7 @@ exports.verifyToken = async (req, res, next) => {
   const token = req.headers.authorization;
   console.log(token);
   if (!token) {
-    return sendErrorResponse(res, 401, "Unauthorize");
+    return sendErrorResponse(res, 401, "Unauthorized");
   }
 
   try {
@@ -17,6 +17,7 @@ exports.verifyToken = async (req, res, next) => {
     const isTokenBlacklisted = await BlacklistedToken.exists({
       token: token.replace("Bearer ", ""),
     });
+    console.log(isTokenBlacklisted, "isToken");
     if (isTokenBlacklisted) {
       return sendErrorResponse(res, 403, "Forbidden");
     } else {
@@ -30,7 +31,7 @@ exports.verifyToken = async (req, res, next) => {
     }
   } catch (err) {
     console.log(err, "err");
-    return sendErrorResponse(res, 401, "Session Expired");
+    return sendErrorResponse(res, 401, "Unauthorized");
 
     // return res.status(401).json({ error: "Session Expired" });
   }

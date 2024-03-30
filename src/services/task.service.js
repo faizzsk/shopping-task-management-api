@@ -3,74 +3,72 @@ const Logger = require("../utils/logger");
 
 // Create Task
 exports.createTask = async (taskData) => {
-    Logger.verbose("[task.services.js] -> createTask ]");
-  
-    const task = new Task(taskData);
-  
-    await task.save();
-  };
-  
+  Logger.verbose("[task.services.js] -> createTask ]");
+
+  const task = new Task(taskData);
+
+  await task.save();
+};
 
 // Get Task By Id
 exports.getTaskById = async (userId, taskId) => {
-
-    Logger.verbose("[task.services.js] -> getTaskById ]");
-
+  Logger.verbose("[task.services.js] -> getTaskById ]");
+  try {
     const task = await Task.findOne({ _id: taskId, user: userId });
+    console.log("task", task);
     if (!task) {
-      throw new Error("Task not found");
+      let error = new Error("Task Not found");
+      error.statusCode = 400;
+      throw error
     }
+
     return task;
-  };
-  
+  } catch (error) {
+    throw new Error(error);
+  }
+};
 
 // Update by Id
 exports.updateTaskById = async (userId, taskId, updateData) => {
-
-    Logger.verbose("[task.services.js] -> updateTaskById ]");
-    console.log("asdadad");
-    try {
-     
-      const updatedTask = await Task.findOneAndUpdate(
-        { _id: taskId, user: userId,isActive:true },
-        { ...updateData, updatedBy: userId },
-        { new: true }
-      );
-      console.log("hg",updatedTask);
-      if (!updatedTask) {
-        console.log("asaaafs");
-        throw new Error("Task not found");
-      }
-      return updatedTask;
-    } catch (error) {
-        console.log("error",error);
-      throw new Error("Failed to update task");
+  Logger.verbose("[task.services.js] -> updateTaskById ]");
+  console.log("asdadad");
+  try {
+    const updatedTask = await Task.findOneAndUpdate(
+      { _id: taskId, user: userId, isActive: true },
+      { ...updateData, updatedBy: userId },
+      { new: true }
+    );
+    console.log("hg", updatedTask);
+    if (!updatedTask) {
+      console.log("asaaafs");
+      throw new Error("Task not found");
     }
-  };
+    return updatedTask;
+  } catch (error) {
+    console.log("error", error);
+    throw new Error(error);
+  }
+};
 
-
-  // Delete by Id
+// Delete by Id
 // Soft delete
 exports.deleteTaskById = async (userId, taskId) => {
-    try {
-        Logger.verbose("[task.services.js] -> deleteTaskById ]");
+  try {
+    Logger.verbose("[task.services.js] -> deleteTaskById ]");
 
-  
-      const deletedTask = await Task.findOneAndUpdate(
-        { _id: taskId, user: userId,isActive:true },
-        { isActive: false, deletedBy: userId }
-      );
-      if (!deletedTask) {
-        throw new Error("Task not found");
-      }
-    } catch (error) {
-  
-      throw new Error("Failed to delete task");
+    const deletedTask = await Task.findOneAndUpdate(
+      { _id: taskId, user: userId, isActive: true },
+      { isActive: false, deletedBy: userId }
+    );
+    if (!deletedTask) {
+      throw new Error("Task not found");
     }
-  };
-  
-  
-  // Get All Task
+  } catch (error) {
+    throw new Error("Failed to delete task");
+  }
+};
+
+// Get All Task
 // Pagination with sorting, searching, pagination
 exports.getAllTasks = async (userId, query) => {
   //console.log("-- Task Service --getAllTasks ");
@@ -130,10 +128,9 @@ exports.getAllTasks = async (userId, query) => {
     //  const total_pages = Math.ceil(tasks.length / limit);
     const total_pages = Math.ceil(tasks.length / limit);
 
-    // current page 
+    // current page
     const current_page = Math.min(page, total_pages);
 
-    
     const response = {
       data: {
         tasks,
