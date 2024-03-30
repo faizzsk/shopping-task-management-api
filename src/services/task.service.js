@@ -70,3 +70,85 @@ exports.deleteTaskById = async (userId, taskId) => {
   };
   
   
+  // Get All Task
+// Pagination with sorting, searching, pagination
+exports.getAllTasks = async (userId, query) => {
+  //console.log("-- Task Service --getAllTasks ");
+  Logger.verbose("[task.services.js] -> getAllTasks ]");
+
+  try {
+    const { sortBy, sortOrder, search, page = 1, limit = 10 } = query;
+    const pipeline = [];
+
+    // Match
+    pipeline.push({ $match: { createdBy: userId } });
+
+    if (search) {
+      pipeline.push({
+        $match: {
+          $or: [
+            { title: { $regex: search, $options: "i" } }, // search by title
+            { description: { $regex: search, $options: "i" } }, // search by description
+            { status: { $regex: search, $options: "i" } }, // status
+          ],
+        },
+      });
+    }
+
+    if (sortBy && sortOrder) {
+      pipeline.push({
+        $sort: { [sortBy]: parseInt(sortOrder) === 1 ? 1 : -1 },
+      });
+    }
+
+    if (page && limit) {
+      pipeline.push({ $skip: (page - 1) * limit });
+      pipeline.push({ $limit: parseInt(limit) });
+    }
+    console.log("pipeline", pipeline);
+    // Build aggregation pipeline stages based on query parameters
+    //   const pipeline = [
+    //     { $match: { user: userId,isActive:true } },
+    //     { $sort: { [sortBy]: parseInt(sortOrder) === 1 ? 1 : -1 } }, // Ensure sort order is properly handled
+    //     { $skip: (page - 1) * limit },
+    //     { $limit: parseInt(limit) }
+    //   ];
+
+    //   if (search) {
+    //     pipeline.unshift({
+    //       $match: {
+    //         $or: [
+    //           { title: { $regex: search, $options: 'i' } },
+    //           { description: { $regex: search, $options: 'i' } }
+    //         ]
+    //       }
+    //     });
+    //   }
+
+    const tasks = await Task.aggregate(pipeline);
+
+    //  const total_pages = Math.ceil(tasks.length / limit);
+    const total_pages = Math.ceil(tasks.length / limit);
+
+    // current page 
+    const current_page = Math.min(page, total_pages);
+
+    
+    const response = {
+      data: {
+        tasks,
+        pagination: {
+          total_pages,
+          current_page: current_page, //parseInt(page),
+          per_page: parseInt(limit),
+        },
+      },
+    };
+
+    console.log("task", response);
+    return response;
+  } catch (error) {
+    console.log("error", error);
+    throw new Error("Failed to fetch tasks");
+  }
+};

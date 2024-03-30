@@ -78,3 +78,10 @@
 {"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:55:47.225Z"}
 {"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:58:27.354Z"}
 {"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:58:58.295Z"}
+{"level":"info","message":"GET /","timestamp":"2024-03-29T17:06:42.410Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2024-03-29T17:06:42.543Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-30T04:49:00.007Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-30T04:49:09.589Z"}
+{"level":"info","message":"GET /api/tasks/","timestamp":"2024-03-30T04:50:23.095Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 04:58:29 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T04:58:29.657Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:06:14 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T05:06:14.816Z"}

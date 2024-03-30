@@ -76,6 +76,7 @@ exports.updateTaskById = async (req, res) => {
   }
 };
 
+
 // Delete By ID
 exports.deleteTaskById = async (req, res) => {
 
@@ -93,4 +94,25 @@ exports.deleteTaskById = async (req, res) => {
 
     }
   };
+
+
+// Get All Task
+exports.getAllTasks = async (req, res) => {
+
+  Logger.verbose("[task.controllers.js] -> getAllTasks ]");
+
+  try {
+    const userId = req.user.userId; // Extract userId from JWT payload
+    //const { sortBy, sortOrder, search, page, limit } = req.query;
+    const query = req?.query;
+    const tasks = await taskService.getAllTasks(userId, query);
+    sendSuccessResponse(res,tasks, 200, "");
+
+  } catch (error) {
+    console.log("err", error);
+    sendErrorResponse(res, 500, "Failed to find records");
+    // res.status(500).json({ error: "Failed to fetch tasks" });
+  }
+};
+
   

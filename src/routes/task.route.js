@@ -5,7 +5,7 @@ const taskController = require("../controllers/task.controllers");
 
 // Protected routes
 // Get All Task
-// router.get("/", authMiddleware.verifyToken, taskController.getAllTasks);
+ router.get("/", authMiddleware.verifyToken, taskController.getAllTasks);
 
 // // Get Task By Id
  router.get("/:id", authMiddleware.verifyToken, taskController.getTaskById);

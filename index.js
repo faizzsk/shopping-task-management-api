@@ -8,6 +8,7 @@ const connectDB = require("./config/db");
 const logger  = require("./src/utils/logger");
 //const logger = require("./log")
 const cookieParser = require("cookie-parser");
+const loggingMiddleware = require("./src/middleware/logging.middleware");
 // const loggingMiddleware = require("./middleware/logging.middleware");
 // const errorHandler = require("./middleware/error.middleware");
 
@@ -15,15 +16,15 @@ const app = express();
 
 // // Connect to MongoDB
 connectDB();
-app.use((req, res, next) => {
-    logger.info(`${req.method} ${req.url}`);
-    next();
-  });
+// app.use((req, res, next) => {
+//     logger.info(`${req.method} ${req.url}`);
+//     next();
+//   });
   
 // // Middleware
 app.use(express.json());
 app.use(cookieParser());
-// app.use(loggingMiddleware);
+app.use(loggingMiddleware);
 // app.use(errorHandler);
 
 // // Routes
