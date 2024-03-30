@@ -2,7 +2,8 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const Logger = require("../utils/logger");
-const authConfig=require('../../config/auth')
+const authConfig=require('../../config/auth');
+const { exceptions } = require("winston");
 
 // Register User
 exports.registerUser = async (username, password) => {
@@ -29,11 +30,19 @@ exports.loginUser = async (username, password) => {
   
     const user = await User.findOne({ username:username.toLowerCase() });
     if (!user) {
-      throw new Error("Invalid username ");
+      let error = new Error("Invalid Username")
+      error.statusCode = 400
+     
+      throw error
     }
     const validPassword = await bcrypt.compare(password, user.password);
     if (!validPassword) {
-      throw new Error("Invalid password");
+      let error = new Error("Invalid password")
+      error.statusCode = 400
+     
+      throw error
+    
+      //throw new Error("Invalid password");
     }
     
     const token = jwt.sign({ userId: user._id }, authConfig.secret, {

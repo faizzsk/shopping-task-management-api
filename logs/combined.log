@@ -24,3 +24,193 @@
 {"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:36:32.098Z"}
 {"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T15:37:48.079Z"}
 {"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-29T15:37:48.081Z"}
+{"level":"info","message":"POST /api/auth/register","timestamp":"2024-03-29T16:06:43.571Z"}
+{"level":"info","message":"POST /api/task/","timestamp":"2024-03-29T16:09:02.055Z"}
+{"level":"info","message":"POST /api/task/","timestamp":"2024-03-29T16:09:09.396Z"}
+{"level":"info","message":"POST /api/task/","timestamp":"2024-03-29T16:09:31.538Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:09:53.023Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:11:28.222Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:11:50.830Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:11:52.929Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:12:21.524Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T16:12:34.128Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:12:48.230Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:13:21.005Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:13:56.381Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:13:59.389Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:14:19.972Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:14:37.937Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:19:20.109Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:20:27.764Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:21:34.887Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:21:41.487Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:22:59.345Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:25:08.805Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:26:21.378Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:26:43.796Z"}
+{"level":"info","message":"POST /api/auth/logout","timestamp":"2024-03-29T16:26:48.683Z"}
+{"level":"info","message":"POST /api/tasks/","timestamp":"2024-03-29T16:26:52.672Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-29T16:32:05.477Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:32:17.185Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:32:22.368Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:32:59.222Z"}
+{"level":"info","message":"GET /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:33:17.638Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:36:47.646Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:37:13.337Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:39:06.922Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:39:24.734Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:41:15.825Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:41:43.186Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:41:57.799Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:42:22.238Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:43:49.323Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:44:05.987Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:44:36.319Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:45:03.222Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:45:33.669Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:46:01.497Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:46:48.666Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:48:12.159Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:48:54.431Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:48:55.582Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7","timestamp":"2024-03-29T16:51:24.220Z"}
+{"level":"info","message":"PUT /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:52:14.163Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:55:47.225Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:58:27.354Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-29T16:58:58.295Z"}
+{"level":"info","message":"GET /","timestamp":"2024-03-29T17:06:42.410Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2024-03-29T17:06:42.543Z"}
+{"level":"info","message":"DELETE /api/tasks/6606ea8e6d6255a19fbccf7a","timestamp":"2024-03-30T04:49:00.007Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2024-03-30T04:49:09.589Z"}
+{"level":"info","message":"GET /api/tasks/","timestamp":"2024-03-30T04:50:23.095Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 04:58:29 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T04:58:29.657Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:06:14 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T05:06:14.816Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:15:06 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:15:06.428Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:15:28 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:15:28.463Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:15:45 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:15:45.698Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:16:37 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:16:37.086Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:20:49 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:20:49.164Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:21:38 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:21:38.554Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:23:19 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:23:19.530Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:23:43 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:23:43.508Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:24:54 GMT -> POST -> /api/auth/register]","timestamp":"2024-03-30T05:24:54.753Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:27:28 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:27:28.479Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:27:36 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:27:36.234Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:27:36.241Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:28:24 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:28:24.316Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:28:24.328Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:30:27 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:30:27.711Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:30:27.724Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:30:29 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:30:29.983Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:30:29.986Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:30:48 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:30:48.320Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:30:48.336Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:31:27 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:31:27.218Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:31:27.229Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:31:38 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:31:38.170Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:31:38.263Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:31:42 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:31:42.381Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:37:09 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:37:09.236Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:37:09.334Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:41:45 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:41:45.252Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:41:45.350Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:41:46 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:41:46.584Z"}
+{"level":"error","message":"[auth.controllers.js] -> Register ]","timestamp":"2024-03-30T05:41:46.659Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:42:10 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:42:10.877Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:42:10.976Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:42:58 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:42:58.153Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:42:58.246Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:43:02 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:43:02.751Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:43:02.755Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:45:30 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:45:30.307Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:45:30.310Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:46:29 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T05:46:29.727Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:46:48 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T05:46:48.406Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-30T05:46:48.407Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:47:30 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T05:47:30.449Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-30T05:47:30.451Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:47:56 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T05:47:56.403Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-30T05:47:56.404Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:05 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:48:05.831Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:48:05.840Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:12 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:48:12.367Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:48:12.372Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:16 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:48:16.243Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:48:16.247Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:23 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:48:23.744Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T05:48:23.747Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:32 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T05:48:32.519Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:46 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T05:48:46.201Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:48:48 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T05:48:48.404Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-30T05:48:48.405Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:55:40 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T05:55:40.135Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:56:18 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T05:56:18.158Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:56:19 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T05:56:19.456Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 05:56:57 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T05:56:57.356Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:01:59 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T06:01:59.589Z"}
+{"level":"error","message":"[auth.controllers.js] -> Logout ]","timestamp":"2024-03-30T06:01:59.604Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:02:39 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:02:39.853Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:02:47 GMT -> POST -> /api/auth/logout]","timestamp":"2024-03-30T06:02:47.555Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:04:11 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T06:04:11.215Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:04:39 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:04:39.631Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:05:03 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T06:05:03.296Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:05:23 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T06:05:23.718Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:05:38 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T06:05:38.705Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:06:46 GMT -> POST -> /api/tasks/]","timestamp":"2024-03-30T06:06:46.637Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:11:33 GMT -> GET -> /api/tasks/66038f5a5686a2aefb9627fd]","timestamp":"2024-03-30T06:11:33.644Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:12:34 GMT -> GET -> /api/tasks/66038f5a5686a2aefb9627fd]","timestamp":"2024-03-30T06:12:34.713Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:13:09 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:13:09.808Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T06:13:09.815Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:14:01 GMT -> GET -> /api/task/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:14:01.532Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:14:18 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:14:18.609Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:14:39 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682G]","timestamp":"2024-03-30T06:14:39.844Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:16:12 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682G]","timestamp":"2024-03-30T06:16:12.248Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:16:14 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682G]","timestamp":"2024-03-30T06:16:14.204Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:17:11 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682G]","timestamp":"2024-03-30T06:17:11.034Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:17:30 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:17:30.353Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:17:36 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:17:36.462Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:18:23 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:18:23.302Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:18:28 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:18:28.452Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:18:36 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:18:36.883Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T06:18:36.889Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:18:55 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:18:55.764Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:19:10 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:19:10.382Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:19:43 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:19:43.544Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:19:48 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:19:48.596Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:24:00 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:24:00.893Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:24:48 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:24:48.234Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:25:30 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:25:30.490Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:25:48 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:25:48.156Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:26:38 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:26:38.631Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T06:26:38.726Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:26:45 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:26:45.508Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:27:28 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:27:28.011Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:27:30 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:27:30.845Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:27:32 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:27:32.982Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:27:39 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:27:39.501Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:27:40 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:27:40.837Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:28:14 GMT -> GET -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:28:14.837Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:30:30 GMT -> PUT -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:30:30.565Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:30:53 GMT -> PUT -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:30:53.686Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:31:38 GMT -> PUT -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:31:38.786Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:32:42 GMT -> PUT -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:32:42.191Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:32:43 GMT -> PUT -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:32:43.392Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:32:44 GMT -> PUT -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:32:44.693Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:33:06 GMT -> PUT -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:33:06.040Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:34:11 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:34:11.264Z"}
+{"level":"error","message":"[auth.controllers.js] -> login ]","timestamp":"2024-03-30T06:34:11.358Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:34:17 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:34:17.918Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:34:30 GMT -> PUT -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:34:30.641Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:34:56 GMT -> PUT -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:34:56.303Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:35:06 GMT -> PUT -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:35:06.699Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:35:32 GMT -> DELETE -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:35:32.130Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:35:37 GMT -> DELETE -> /api/tasks/6606ea8e6d6255a19fbccf7a]","timestamp":"2024-03-30T06:35:37.450Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:35:51 GMT -> DELETE -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:35:51.885Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:36:03 GMT -> DELETE -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:36:03.688Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:36:07 GMT -> DELETE -> /api/tasks/6607ab8faf382b2f082d9682]","timestamp":"2024-03-30T06:36:07.619Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:36:20 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T06:36:20.483Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:36:26 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T06:36:26.397Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:39:37 GMT -> POST -> /api/auth/login]","timestamp":"2024-03-30T06:39:37.145Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:39:52 GMT -> PUT -> /api/tasks/6607ab8faf382b2f082d9684]","timestamp":"2024-03-30T06:39:52.902Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:39:59 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T06:39:59.394Z"}
+{"level":"info","message":"[Sat, 30 Mar 2024 06:40:04 GMT -> GET -> /api/tasks/]","timestamp":"2024-03-30T06:40:04.062Z"}

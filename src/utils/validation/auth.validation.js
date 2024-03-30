@@ -3,6 +3,11 @@ const User = require('../../models/User');
 
 
 exports.validateRegistration = [
+  body('username').trim()
+  .notEmpty().withMessage('Username is required').custom(value => !/\s/.test(value)).withMessage('Username cannot contain spaces'),
+  
+  body('password').notEmpty().withMessage('Password is required') ,
+
   body('username').notEmpty().withMessage('Username is required'),
   body('password').notEmpty().withMessage('Password is required'),
 

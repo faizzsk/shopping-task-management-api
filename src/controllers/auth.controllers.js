@@ -20,7 +20,7 @@ exports.register = async (req, res) => {
 
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
-    sendErrorResponse(res, 400, errors.array());
+    return sendErrorResponse(res, 400, errors.array()[0]?.msg);
   }
 
   try {
@@ -31,9 +31,8 @@ exports.register = async (req, res) => {
   } catch (error) {
     Logger.error("[auth.controllers.js] -> Login ]");
     console.log("err", error);
-    sendErrorResponse(res, 500, "Failed to register user");
-
-}
+    sendErrorResponse(res, 500, error.message || "Failed to register user");
+  }
 };
 
 // Login
@@ -45,9 +44,7 @@ exports.login = async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     Logger.error("[auth.controllers.js] -> Validation Error ]");
-
-    sendErrorResponse(res, 400, errors.array());
-
+    return sendErrorResponse(res, 400, errors.array()[0]?.msg);
   }
 
   try {
@@ -58,9 +55,11 @@ exports.login = async (req, res) => {
     res.cookie("jwtToken", token, { httpOnly: false, secure: false });
     sendSuccessResponse(res, token, 200, "User Logged in succesfully");
   } catch (error) {
-    Logger.error("[auth.controllers.js] -> Register ]");
+    Logger.error("[auth.controllers.js] -> login ]");
     console.log(error);
-    sendErrorResponse(res, 500, "Failed to login");
+    console.log(error.message);
+
+    sendErrorResponse(res, error.statusCode || 500, error.message || "Failed to login");
 
     //      res.status(500).json({ error: "Failed to login", msg: error.message });
   }
@@ -72,7 +71,7 @@ exports.logout = async (req, res) => {
 
   try {
     // const token = req?.headers?.authorization;
-    const token = req?.cookies?.jwtToken.token;
+    const token = req?.cookies?.jwtToken?.token;
     console.log("token", token);
     // Adding token to blacklist
     const blacklistedToken = new BlacklistedToken({
@@ -85,12 +84,10 @@ exports.logout = async (req, res) => {
     res.clearCookie("jwtToken");
 
     sendSuccessResponse(res, "", 200, "Logout successful");
-
   } catch (error) {
     Logger.error("[auth.controllers.js] -> Logout ]");
 
     console.log(error);
-    sendErrorResponse(res, 500, "Something went wrong");
-
+    sendErrorResponse(res, 500,  "Something went wrong");
   }
 };
