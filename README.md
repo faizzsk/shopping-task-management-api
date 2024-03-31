@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 4. Set up your database:
 
-   - **MongoDB**: Ensure MongoDB is installed and running. Update the database configuration in `config/db.config.js`.
+   - **MongoDB**: Ensure MongoDB is installed and running.
    
 5. Start the server:
 
@@ -54,19 +54,99 @@ To run the application using Docker, follow these steps:
 
 ## API Endpoints
 
-### Authentication
+**Base URL : https://localhost:3000**
 
-- `POST /api/auth/register`: Register a new user.
-- `POST /api/auth/login`: Login with username and password to obtain a JWT token.
-- `POST /api/auth/logout`: Logout the currently authenticated user.
+### Authentication Endpoints
 
-### Task Management
+1. #### `POST /api/auth/register`
 
-- `GET /api/tasks`: Get all tasks for the authenticated user.
-- `GET /api/tasks/:id`: Get a specific task by ID.
-- `POST /api/tasks`: Create a new task.
-- `PUT /api/tasks/:id`: Update an existing task by ID.
-- `DELETE /api/tasks/:id`: Delete a task by ID.
+**Description:** 
+Register a new user by providing user details.
+
+**Request Body:**
+- username: String (required)
+- password: String (required)
+
+2. #### `POST /api/auth/login`
+
+**Description:** 
+Login with username and password to obtain a JWT token.
+
+**Request Body:**
+- username: String (required)
+- password: String (required)
+
+
+3. #### `POST /api/auth/logout`
+
+**Description:** 
+Logout the currently authenticated user.
+
+**Authorization Header:**
+- Bearer Token: JWT token obtained during login (required)
+
+
+### Task Management Endpoints
+
+1. #### `POST /api/tasks`
+
+**Description:** 
+Create a new task for the authenticated user.
+
+**Authorization Header:**
+- Bearer Token: JWT token obtained during login (required)
+
+**Request Body:**
+- title: String (required)
+- description: String
+- status: String
+  
+
+2. #### `GET /api/tasks/:id`
+
+**Description:** 
+Get a specific task by ID.
+
+**Authorization Header:**
+- Bearer Token: JWT token obtained during login (required)
+
+3. #### `GET /api/tasks`
+
+**Description:** 
+Get all tasks for the authenticated user.
+
+**Query Parameters:**
+- sortBy: String (optional) - Field to sort tasks by.
+- sortOrder: Number (optional) - Sort order (1 for ascending, -1 for descending).
+- search: String (optional) - Search query to filter tasks by title, description, or status.
+- page: Number (optional) - Page number for pagination.
+- limit: Number (optional) - Number of tasks per page.
+
+**Authorization Header:**
+- Bearer Token: JWT token obtained during login (required)
+
+
+4. #### `PUT /api/tasks/:id`
+
+**Description:** 
+Update an existing task by ID.
+
+**Authorization Header:**
+- Bearer Token: JWT token obtained during login (required)
+
+**Request Body:**
+- title: String
+- description: String
+- status: String
+
+
+5. #### `DELETE /api/tasks/:id`
+
+**Description:** 
+Delete a task by ID.
+
+**Authorization Header:**
+- Bearer Token: JWT token obtained during login (required)
 
 ## Contact Information
 
