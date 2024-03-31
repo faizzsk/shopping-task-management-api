@@ -1,30 +1,29 @@
-// logger.js
 
-const winston = require("winston")
-const path = require("path")
-const logDirectory = path.join(__dirname, '..', '..', 'logs');
-console.log("logDirectory",logDirectory);
+const winston = require("winston");
+const path = require("path");
+const logDirectory = path.join(__dirname, "..", "..", "logs");
+console.log("logDirectory", logDirectory);
 const Logger = winston.createLogger({
   transports: [
     new winston.transports.File({
-      filename: path.join(logDirectory, 'error.log'),
-      level: 'error',
+      filename: path.join(logDirectory, "error.log"),
+      level: "error",
       format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.json()
       ),
     }),
     new winston.transports.File({
-      filename: path.join(logDirectory, 'verbose.log'),
-      level: 'verbose',
+      filename: path.join(logDirectory, "verbose.log"),
+      level: "verbose",
       format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.json()
       ),
     }),
-   
+
     new winston.transports.File({
-      filename: path.join(logDirectory, 'combined.log'),
+      filename: path.join(logDirectory, "combined.log"),
       format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.json()
@@ -33,10 +32,12 @@ const Logger = winston.createLogger({
   ],
 });
 
-if (process.env.NODE_ENV !== 'production') {
-  Logger.add(new winston.transports.Console({
-    format: winston.format.simple(),
-  }));
+if (process.env.NODE_ENV !== "production") {
+  Logger.add(
+    new winston.transports.Console({
+      format: winston.format.simple(),
+    })
+  );
 }
 
-module.exports= Logger;
+module.exports = Logger;

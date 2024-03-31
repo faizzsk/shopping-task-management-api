@@ -19,7 +19,7 @@ exports.getTaskById = async (userId, taskId) => {
     if (!task) {
       let error = new Error("Task Not found");
       error.statusCode = 400;
-      throw error
+      throw error;
     }
 
     return task;
@@ -31,16 +31,15 @@ exports.getTaskById = async (userId, taskId) => {
 // Update by Id
 exports.updateTaskById = async (userId, taskId, updateData) => {
   Logger.verbose("[task.services.js] -> updateTaskById ]");
-  console.log("asdadad");
+  console.log("here");
   try {
     const updatedTask = await Task.findOneAndUpdate(
       { _id: taskId, user: userId, isActive: true },
       { ...updateData, updatedBy: userId },
       { new: true }
     );
-    console.log("hg", updatedTask);
+    console.log("updatedTask", updatedTask);
     if (!updatedTask) {
-      console.log("asaaafs");
       throw new Error("Task not found");
     }
     return updatedTask;
@@ -100,7 +99,8 @@ exports.getAllTasks = async (userId, query) => {
     }
 
     if (page && limit) {
-      pipeline.push({ $skip: (page - 1) * limit });
+      const skip = (page - 1) * limit;
+      pipeline.push({ $skip: parseInt(skip) });
       pipeline.push({ $limit: parseInt(limit) });
     }
     console.log("pipeline", pipeline);
@@ -123,20 +123,25 @@ exports.getAllTasks = async (userId, query) => {
     //     });
     //   }
 
+    // Pagination
+
     const tasks = await Task.aggregate(pipeline);
 
+    const totalTasksCount = await Task.countDocuments({ createdBy: userId });
+
+    const totalPages = Math.ceil(totalTasksCount / limit);
+
     //  const total_pages = Math.ceil(tasks.length / limit);
-    const total_pages = Math.ceil(tasks.length / limit);
 
     // current page
-    const current_page = Math.min(page, total_pages);
+    //    const current_page = Math.min(page, total_pages);
 
     const response = {
       data: {
         tasks,
         pagination: {
-          total_pages,
-          current_page: current_page, //parseInt(page),
+          totalPages: totalPages,
+          current_page: page, //parseInt(page),
           per_page: parseInt(limit),
         },
       },

@@ -19,7 +19,7 @@ exports.createTask = async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return sendErrorResponse(res, 400, errors.array()[0]?.msg);
-   // return sendErrorResponse(res, 400, errors.array());
+    // return sendErrorResponse(res, 400, errors.array());
   }
 
   try {
@@ -29,7 +29,6 @@ exports.createTask = async (req, res) => {
     await taskService.createTask(taskData);
 
     sendSuccessResponse(res, "", 201, "Task created succesfully");
-
   } catch (error) {
     console.log("error", error);
     sendErrorResponse(res, 500, "Failed to create a task");
@@ -47,7 +46,11 @@ exports.getTaskById = async (req, res) => {
     const task = await taskService.getTaskById(userId, taskId);
     sendSuccessResponse(res, task, 200, "");
   } catch (error) {
-    sendErrorResponse(res, error.statusCode || 500, error.message || "Failed to fetch a task");
+    sendErrorResponse(
+      res,
+      error.statusCode || 500,
+      error.message || "Failed to fetch a task"
+    );
   }
 };
 
@@ -58,9 +61,7 @@ exports.updateTaskById = async (req, res) => {
 
   try {
     const userId = req?.user?.userId;
-    console.log("userid", userId);
     const taskId = req?.params?.id;
-    console.log("userid", taskId);
 
     const updateBody = req.body;
 
@@ -77,29 +78,23 @@ exports.updateTaskById = async (req, res) => {
   }
 };
 
-
 // Delete By ID
 exports.deleteTaskById = async (req, res) => {
+  Logger.verbose("[task.controllers.js] -> deleteTaskById ]");
 
-    Logger.verbose("[task.controllers.js] -> deleteTaskById ]");
+  try {
+    const userId = req.user.userId;
+    const taskId = req.params.id;
 
-    try {
-      const userId = req.user.userId;
-      const taskId = req.params.id;
-  
-      await taskService.deleteTaskById(userId, taskId);
-      sendSuccessResponse(res, "", 200, "Task deleted succesfully");
-
-    } catch (error) {
-        sendErrorResponse(res, 500, "Failed to delete a task");
-
-    }
-  };
-
+    await taskService.deleteTaskById(userId, taskId);
+    sendSuccessResponse(res, "", 200, "Task deleted succesfully");
+  } catch (error) {
+    sendErrorResponse(res, 500, "Failed to delete a task");
+  }
+};
 
 // Get All Task
 exports.getAllTasks = async (req, res) => {
-
   Logger.verbose("[task.controllers.js] -> getAllTasks ]");
 
   try {
@@ -107,13 +102,10 @@ exports.getAllTasks = async (req, res) => {
     //const { sortBy, sortOrder, search, page, limit } = req.query;
     const query = req?.query;
     const tasks = await taskService.getAllTasks(userId, query);
-    sendSuccessResponse(res,tasks, 200, "");
-
+    sendSuccessResponse(res, tasks, 200, "");
   } catch (error) {
     console.log("err", error);
     sendErrorResponse(res, 500, "Failed to find records");
     // res.status(500).json({ error: "Failed to fetch tasks" });
   }
 };
-
-  
