@@ -59,7 +59,11 @@ exports.login = async (req, res) => {
     console.log(error);
     console.log(error.message);
 
-    sendErrorResponse(res, error.statusCode || 500, error.message || "Failed to login");
+    sendErrorResponse(
+      res,
+      error.statusCode || 500,
+      error.message || "Failed to login"
+    );
 
     //      res.status(500).json({ error: "Failed to login", msg: error.message });
   }
@@ -88,6 +92,6 @@ exports.logout = async (req, res) => {
     Logger.error("[auth.controllers.js] -> Logout ]");
 
     console.log(error);
-    sendErrorResponse(res, 500,  "Something went wrong");
+    sendErrorResponse(res, 500, "Something went wrong");
   }
 };
