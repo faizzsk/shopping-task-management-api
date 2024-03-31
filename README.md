@@ -16,13 +16,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/shopping-portal-api.git
+   git clone https://github.com/faizzsk/shopping-task-management-api.git
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd shopping-portal-api
+   cd shopping-task-management-api
    ```
 
 3. Install dependencies:
